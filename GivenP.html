@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://file.myfontastic.com/Tut3GEtJoXzoRYpGnsHRad/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="video-js.css">
+	<script src="video.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Friki Zone</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Given La Pelicula</h1>
+    </header>
+	<main>
+		<div class="contenedor">
+			<div class="usted">
+				<a href="Pagina.html" role="button" class="icono1"><i class="icon-reply"></i></a>
+		</div>
+			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+				<source src="videos/given - La Película l Tráiler Oficial (sub. español).mp4" type="video/mp4">
+			</video>
+	
+			<article>
+				<h2>Given La Pelicula</h2>
+				<p>Ritsuka Uenoyama es un estudiante de 
+                    preparatoria/instituto que se queda boquiabierto cuando escucha cantar a Mafuyu Sato. 
+                    Él y sus compañeros de la banda, Haruki Nakayama y Akihiko 
+                    Kaji, le dan la bienvenida a su grupo como vocalista.</p>
+			</article>
+		</div>
+	</main>
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

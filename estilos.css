@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #ca0303;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	background: #d30202;
+	color: rgb(0, 0, 0);
+	font-size: 4em;
+	text-align: center;
+	padding: 50px 0;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+header .titulo {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+main {
+	margin-top: 150px;
+}
+
+main .contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* ------------------------- */
+/* Estilos CSS del Reproductor */
+/* ------------------------- */
+.fm-video {
+	width: 100%;
+	box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.5);
+}
+
+.fm-video .vjs-control-bar {
+	background: #F4F4F4;
+	color: #2d5f85;
+}
+
+.fm-video .vjs-play-progress,
+.fm-video .vjs-volume-level {
+	background: #1d87d8;
+}
+
+.fm-video .vjs-slider {
+	background: #2d5f85;
+}
+
+.video-js:hover .vjs-big-play-button {
+	background: rgba(0,0,0,.2);
+}
+
+.fm-video .vjs-big-play-button {
+	background: rgba(0,0,0,.2);
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	border:none;
+}
+
+.fm-video .vjs-big-play-button:hover {
+	background: rgba(0,0,0,.5);
+}
+
+article {
+	margin: 50px 0;
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	line-height: 28px;
+	padding: 40px;
+}
+
+article h2 {
+	color: #ff0000;
+	font-size: 32px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	header {
+		position: relative;
+		height: auto;
+	}
+
+	main {
+		margin-top: 50px;
+	}
+}
+
+.boton{
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.30em 1.20em;
+    color: rgb(0, 0, 0);
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+}
+
+.boton{
+	background-color: #ff0000;
+	color: white;
+	border: none;
+	padding: 16px;
+	font-size: 18.5px;
+}
+
+.links a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 13px;
+}
+
+.links{
+	background-color: #f9f9f9;
+	width: 121px;
+	display: none;
+
+}
+
+.links a:hover{
+	background-color: #f1f1f1;
+
+}
+
+.desplegables:hover .links{
+	display: block;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://file.myfontastic.com/Tut3GEtJoXzoRYpGnsHRad/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="video-js.css">
+	<script src="video.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Friki Zone</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Demon Slayer</h1>
+    </header>
+	<main>
+		<div class="contenedor">
+			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+				<source src="videos/Demon Slayer Kimetsu no Yaiba Swordsmith Village Arc OFFICIAL TRAILER.mp4" type="video/mp4">
+			</video>
+	
+			<article>
+				<h2>Demon Slayer</h2>
+				<p>Kimetsu no Yaiba (鬼滅の刃? lit. «espada matademonios»), también conocida bajo su nombre en inglés Demon Slayer , 
+                    es una serie de manga escrita e ilustrada por Koyoharu Gotōge, 
+                    cuya publicación comenzó el 15 de febrero de 2016 en la revista semanal Shūkan Shōnen Jump de la editorial Shūeisha. 
+                    Una adaptación a serie de anime producida por el estudio Ufotable fue estrenada el 6 de abril de 2019 y finalizó el 28 de septiembre de ese mismo año. 
+                    La continuación de la historia fue adaptada en formato de película y se llamó Kimetsu no Yaiba: Mugen Ressha-hen, 
+                    se estrenó el 16 de octubre de 2020 en Japón, convirtiéndose en la película más taquillera en la historia de dicho país.3</p>
+			</article>
+		</div>
+	</main>
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

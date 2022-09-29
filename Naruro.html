@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://file.myfontastic.com/Tut3GEtJoXzoRYpGnsHRad/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="video-js.css">
+	<script src="video.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Friki Zone</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Naruto</h1>
+    </header>
+	<main>
+		<div class="contenedor">
+			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+				<source src="videos/Naruto trailer primer capitulo.mp4" type="video/mp4">
+			</video>
+	
+			<article>
+				<h2>Naruto</h2>
+				<p>Es una serie Manga que cuenta la historia de 
+                    un joven ninja hiperactivo llamado Naruto Uzumaki que hará todo lo posible por ascender al máximo grado ninja de su aldea 
+                    con el propósito de ser reconocido como alguien importante dentro de su aldea.</p>
+			</article>
+		</div>
+	</main>
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

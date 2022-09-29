@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://file.myfontastic.com/Tut3GEtJoXzoRYpGnsHRad/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="video-js.css">
+	<script src="video.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Friki Zone</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">Dragon Ball Super: Super Hero</h1>
+    </header>
+	<main>
+		<div class="contenedor">
+			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+				<source src="videos/Dragon Ball Super SUPER HERO TRµILER LATINO OFICIAL.mp4" type="video/mp4">
+			</video>
+	
+			<article>
+				<h2>Dragon Ball Super: Super Hero</h2>
+				<p>Es una película japonesa anime en 3D producida por Toei Animation, distribuida por Toei Company, y escrita por el autor original de la serie Akira Toriyama. 
+                    Es la vigésimo primera película de Dragon Ball, la cuarta producida con la intervención directa de Toriyama, 
+                    la segunda bajo el sello de Dragon Ball Super y la primera producida principalmente animación CGI. 
+                    Su lanzamiento original estaba programado para el 22 de abril de 2022 en Japón, 
+                    pero se pospuso debido a un ataque en Toei Animation, siendo ahora su nueva fecha de estreno en Japón el 11 de junio del 2022.
+                    La película recibió críticas muy positivas, tanto del público como de la crítica especializada, destacando su calidad de animación, su ritmo, y su argumento original.</p>
+			</article>
+		</div>
+	</main>
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://file.myfontastic.com/Tut3GEtJoXzoRYpGnsHRad/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="video-js.css">
+	<script src="video.js"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Friki Zone</title>
+</head>
+<body>
+	<header>
+		<h1 class="titulo">La Batalla Mas Grande Del Mundo</h1>
+    </header>
+	<main>
+		<div class="contenedor">
+			<video class="fm-video video-js vjs-16-9 vjs-big-play-centered" data-setup="{}" controls id="fm-video">
+				<source src="videos/Dragon Ball Z Trailer La Batalla M s Grande del Mundo Esta por Comenzar (Turles).mp4" type="video/mp4">
+			</video>
+	
+			<article>
+				<h2>La Batalla Mas Grande Del Mundo</h2>
+				<p>Una extraña nave de exploración llega a la Tierra para ser observada por un desertor de Freezer, Turles, junto a sus secuaces. 
+                    Ellos llegan a la Tierra para sembrar el árbol sagrado, que haría que sus poderes aumentaran de manera increíble.
+                    Cuando Kaio-sama alerta a los guerreros Z del Árbol sagrado, Son Goku y los demás fueron a intentar destruirlo, 
+                    pero en ese momento aparecen los cinco guerreros de Turles y se enfrentan a los guerreros Z
+                    Mientras Goku y sus amigos pelean contra los secuaces de Turles, 
+                    Son Gohan se encuentra con el Saiyajin Turles, quien tiene prácticamente el aspecto de Goku, 
+                    este demuestra ser superior a Gohan y decide crear una luna artificial para que Gohan se transforma en un mono gigante y luche contra su padre.
+                    Durante un momento Gohan deja de pelear contra Goku cuando aparece el gran dragón, la mascota de Gohan, 
+                    pero Turles ataca al gran dragón, haciendo que Gohan se enfade con él. 
+                    Cuando Turles decide matarlo, Goku le corta la cola a Gohan para que no le llege el ataque de Turles; cuando vuelve a la normalidad, 
+                    Gohan le pide a Goku que protega la Tierra, este ultimo le promete que acabara con Turles a como de lugar.</p>
+			</article>
+		</div>
+	</main>
+	<script>
+		var reproductor = videojs('fm-video', {
+			fluid: true
+		});
+	</script>
+</body>
+</html>
